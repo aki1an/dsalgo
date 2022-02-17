@@ -16,26 +16,8 @@ public class SubsetSums {
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
-        arrayList.add(5);
         arrayList.add(3);
-        arrayList.add(3);
-        arrayList.add(3);
-        arrayList.add(3);
-        arrayList.add(3);
-        System.out.println(sum(arrayList,arrayList.size() - 1, new ArrayList<>(), 0).size());
+        arrayList.add(4);
+        System.out.println(sum(arrayList,arrayList.size() - 1, new ArrayList<>(), 0));
     }
 }
